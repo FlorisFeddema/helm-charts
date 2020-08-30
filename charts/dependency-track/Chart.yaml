@@ -13,8 +13,8 @@ keywords:
  - OWASP
  - Supply Chain Component Analysis
 maintainers:
- - name: davidkarlsen
-   email: david@davidkarlsen.com
+ - name: florisfeddema
+   email: floris@feddema.dev
 sources:
  - https://docs.dependencytrack.org/
- - https://github.com/evryfs/helm-charts
+ - https://github.com/florisfeddema/helm-charts

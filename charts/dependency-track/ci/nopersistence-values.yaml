@@ -1,4 +1,0 @@
-postgresql:
-  enabled: false
-persistentVolume:
-  enabled: false

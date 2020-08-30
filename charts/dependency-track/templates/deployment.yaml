@@ -37,7 +37,7 @@ spec:
           env:
           - name: ALPINE_DATA_DIRECTORY
             value: "/data"
-          {{- if .Values.postgresql.enabled }}
+          {{- if .Values.postgresql.external }}
           - name: ALPINE_DATABASE_MODE
             value: "external"
           - name: ALPINE_DATABASE_DRIVER
@@ -45,7 +45,7 @@ spec:
           - name: ALPINE_DATABASE_DRIVER_PATH
             value: "/extlib/postgresql-42.2.5.jar"
           - name: ALPINE_DATABASE_URL
-            value: jdbc:postgresql://{{ .Values.postgresql.postgresqlHost }}/{{ .Values.postgresql.postgresqlDatabase }}
+            value: jdbc:postgresql://{{ .Values.postgresql.postgresqlHost }}:{{ .Values.postgresql.postgresqlPort}}/{{ .Values.postgresql.postgresqlDatabase }}
           - name: ALPINE_DATABASE_PASSWORD
             valueFrom:
               secretKeyRef:

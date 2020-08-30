@@ -336,8 +336,9 @@ configmap:
     #alpine.cors.max.age=3600
 
 postgresql:
-  enabled: true
+  external: true
   postgresqlUsername: deptrack
   postgresqlPassword: deptrack
   postgresqlDatabase: deptrack
-  postgresqlHost: deptrack
+  postgresqlHost: deptrack  
+  postgresqlPort: 5432
