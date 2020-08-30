@@ -5,4 +5,5 @@ CI based on Github Actions, Kind and Chart-testing tool. See [Youtube video](htt
 ## repo
 
 Add the repo:
-`helm repo add evryfs-oss https://evryfs.github.io/helm-charts/`
+
+`helm repo add florisfeddema https://florisfeddema.github.io/helm-charts/`
