@@ -2,7 +2,7 @@
 
 ## Installing
 
-`helm install evryfs-oss/dependency-track --namespace dependency-track --name dependency-track`
+`helm install florisfeddema/dependency-track --namespace dependency-track --name dependency-track`
 
 ## Configuration
 
