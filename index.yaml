@@ -3,6 +3,30 @@ entries:
   dependency-track:
   - apiVersion: v1
     appVersion: 3.8.0
+    created: "2020-09-06T20:44:59.821725813Z"
+    description: |
+      Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track takes a unique and highly beneficial approach by leveraging the capabilities of Software Bill-of-Materials (SBOM). This approach provides capabilities that traditional Software Composition Analysis (SCA) solutions cannot achieve.
+    digest: e0382a4cf195be168d1d123cf9332e029d5e5088194dc042e379de2a8a00679c
+    home: https://dependencytrack.org/
+    icon: https://www.owasp.org/images/e/e9/Dependency-Track-logo-large.png
+    keywords:
+    - security
+    - dependency
+    - dependency-track
+    - OWASP
+    - Supply Chain Component Analysis
+    maintainers:
+    - email: floris@feddema.dev
+      name: florisfeddema
+    name: dependency-track
+    sources:
+    - https://docs.dependencytrack.org/
+    - https://github.com/florisfeddema/helm-charts
+    urls:
+    - https://github.com/FlorisFeddema/helm-charts/releases/download/dependency-track-0.2.5/dependency-track-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v1
+    appVersion: 3.8.0
     created: "2020-08-30T20:10:18.251574653Z"
     description: |
       Dependency-Track is an intelligent Software Supply Chain Component Analysis platform that allows organizations to identify and reduce risk from the use of third-party and open source components. Dependency-Track takes a unique and highly beneficial approach by leveraging the capabilities of Software Bill-of-Materials (SBOM). This approach provides capabilities that traditional Software Composition Analysis (SCA) solutions cannot achieve.
